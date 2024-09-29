@@ -1,0 +1,125 @@
+
+@import url('https://fonts.googleapis.com/earlyaccess/notosanskr.css');
+
+@font-face {
+  font-family: 'Font Awesome 5 Free';
+  font-style: normal;
+  font-weight: 900;
+  src: url('../js/webfonts/fa-solid-900.woff2') format('woff2'),
+}
+@font-face {
+  font-family: 'Font Awesome 5 Free';
+  font-style: normal;
+  font-weight: 900;
+  src: url('../webfonts/fa-solid-900.woff2') format('woff2'),
+      url('../webfonts/fa-solid-900.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Font Awesome 5 Brands';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../webfonts/fa-brands-400.woff2') format('woff2'),
+      url('../webfonts/fa-brands-400.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Font Awesome 5 Regular';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../webfonts/fa-regular-400.woff2') format('woff2'),
+      url('../webfonts/fa-regular-400.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Font Awesome 5 Free';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../webfonts/fa-v4compatibility.woff2') format('woff2'),
+      url('../webfonts/fa-v4compatibility.woff') format('woff');
+}
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family:'Noto Sans KR',sans-serif;
+  font-style: normal;
+  cursor: default;
+  color:#432718;
+  overflow-x: hidden;   /*가로스크롤*/
+  background-color:#131313;
+}
+ul{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+a, a:visited{
+  text-decoration: none;
+}
+
+button {
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+h2{
+  font-size: 40px;
+  color:#ffffff;
+}
+
+.wrap{
+  width:100%;
+}
+
+
+.미디어쿼리{}
+/* max-width:1300px ~ 1025px */
+@media (max-width:1300px) and (min-width:1025px) {
+h2{
+  font-size:3.077vw;
+}
+p, a {
+  font-size:1.231vw;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+}
+
+
+.미디어쿼리{}
+/* max-width:1024px ~ 768px */
+@media (max-width:1024px) and (min-width:768px) {
+  h2{
+    font-size:2.93vw;
+    white-space: nowrap;
+  }
+  p, a {
+    font-size:1.563vw;
+  }
+}  
+
+.미디어쿼리{}
+/* max-width:767 */
+@media (max-width:767px){
+h2{
+  font-size:5.215vw;
+}
+p, a {
+  font-size:2.086vw;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+}
